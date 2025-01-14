@@ -31,7 +31,7 @@ export default function RegisterPage() {
   // Basic form validation
   const validateForm = () => {
     let valid = true;
-    let errors = { username: "", email: "", password: "", confirmPassword: "" };
+    const errors = { username: "", email: "", password: "", confirmPassword: "" };
 
     // Validate username
     if (!formData.username) {

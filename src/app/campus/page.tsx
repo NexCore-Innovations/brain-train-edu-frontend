@@ -6,7 +6,7 @@ import { Button, Typography } from "@mui/material";
 import Navbar from "../components/Nav/navbar";
 
 const WelcomePage: React.FC = () => {
-  const isDarkMode = false; // Define the isDarkMode variable
+   // Define the isDarkMode variable
   return (
     <div className={`min-h-screen `}>
     <Navbar 
@@ -27,7 +27,7 @@ const WelcomePage: React.FC = () => {
             variant="body1"
             className="text-gray-700 text-center"
           >
-            A platform to revolutionize learning through innovative tools and personalized education. Whether you're a teacher, student, or admin, we have something amazing for you.
+            A platform to revolutionize learning through innovative tools and personalized education. Whether you are a teacher, student, or admin, we have something amazing for you.
           </Typography>
           <div className="relative w-64 h-64 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 rounded-full animate-pulse">
             {/* Decorative Element */}

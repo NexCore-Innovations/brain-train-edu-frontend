@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import RegisterPage from "../registration/page";
 
 const EnrollmentCard = () => {
   const router = useRouter();
@@ -10,7 +8,7 @@ const EnrollmentCard = () => {
       <div className="bg-white shadow-lg rounded-xl overflow-hidden w-full max-w-lg">
         {/* Card Header */}
         <div className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center py-6">
-          <h2 className="text-2xl font-bold">We're Hiring Teachers!</h2>
+          <h2 className="text-2xl font-bold">We are Hiring Teachers!</h2>
           <p className="text-sm mt-2">Shape the future by joining our team of educators.</p>
         </div>
         {/* Card Body */}
@@ -31,7 +29,7 @@ const EnrollmentCard = () => {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-green-500 mt-1">✔</span>
-              Access to innovative tools like Abacus, Rubik's Cube, and Vedic Math games.
+              Access to innovative tools like Abacus, Rubiks Cube, and Vedic Math games.
             </li>
           </ul>
           <p className="mt-6 text-gray-700 text-sm">

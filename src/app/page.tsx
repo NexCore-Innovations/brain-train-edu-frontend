@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl">
           Empowering teachers to learn, hire, and teach students. Explore fun
-          and interactive learning methods with Abacus, Rubik's Cube, and Vedic Math.
+          and interactive learning methods with Abacus, Rubiks Cube, and Vedic Math.
         </p>
         <Button
           variant="contained"
