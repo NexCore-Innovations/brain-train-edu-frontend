@@ -3,9 +3,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button, Typography } from "@mui/material";
 import Nav from "./components/Navbar/nav";
-import EnrollmentCard from "./Enrollment/enrollment";
+import EnrollmentCard from "./EnrollmentCard/enrollment";
 import FeatureCard from "./FeatureCard/featureCard";
-
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [selectedAbcus, setSelectedAbcus] = useState("Abcus");

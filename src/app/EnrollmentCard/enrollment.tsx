@@ -1,6 +1,10 @@
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import RegisterPage from "../registration/page";
 
 const EnrollmentCard = () => {
+  const router = useRouter();
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-4">
       <div className="bg-white shadow-lg rounded-xl overflow-hidden w-full max-w-lg">
@@ -36,12 +40,15 @@ const EnrollmentCard = () => {
         </div>
         {/* Call-to-Action */}
         <div className="p-6 bg-gray-50 border-t border-gray-200 flex justify-center">
+      {/* <Link href={"/registration/registration"}> */}
           <button
             className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-2 px-6 rounded-lg text-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all"
-            onClick={() => alert("Enrollment Form Coming Soon!")}
+            // onClick={() => alert("Enrollment Form Coming Soon!")}
+            onClick={() => router.push("/registration")}
           >
             Enroll Now
           </button>
+          {/* </Link> */}
         </div>
       </div>
     </div>
@@ -49,3 +56,5 @@ const EnrollmentCard = () => {
 };
 
 export default EnrollmentCard;
+
+
